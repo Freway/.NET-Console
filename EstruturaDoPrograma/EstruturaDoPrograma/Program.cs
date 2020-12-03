@@ -15,6 +15,8 @@ namespace EstruturaDoPrograma
                 s.Empilha(entrada = Console.ReadLine());
             }
 
+            Console.Clear();
+
             for (int i=0;i < 3;i++) 
             {
                 Console.WriteLine(s.Desempilha()); 
